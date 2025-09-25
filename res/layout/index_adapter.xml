@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textStyle="bold" android:textColor="@color/name_color" android:gravity="center" android:id="@id/number" android:layout_width="35.0dip" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:text="500. " android:singleLine="true" />
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/black" android:ellipsize="end" android:gravity="left|center" android:id="@id/Songname" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:drawableRight="@drawable/right_arrow" />
+    </LinearLayout>
+    <TextView android:background="@drawable/divider_background" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="3.0dip" />
+</LinearLayout>
